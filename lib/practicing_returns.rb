@@ -1,10 +1,10 @@
 require 'pry'
 
-def hello(array)
+def hello(hello)
   i = 0
-  while i < array.length
+  while i < hello.length
     binding.pry
-    yield(array[i])
+    yield(hello[i])
     i += 1
   end
 end
